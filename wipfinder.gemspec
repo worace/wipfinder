@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_runtime_dependency 'git', '~> 1.9'
-  s.add_runtime_dependency 'coque'
+  s.add_runtime_dependency 'coque', '~> 0.8.0'
   s.executables << 'wipfinder'
 end

@@ -2,11 +2,13 @@ PATH
   remote: .
   specs:
     wipfinder (0.0.1)
+      coque (~> 0.8.0)
       git (~> 1.9)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    coque (0.8.0)
     git (1.9.1)
       rchardet (~> 1.8)
     rchardet (1.8.0)
