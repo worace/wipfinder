@@ -5,4 +5,6 @@ require 'wipfinder'
 dir = ARGV[0]
 puts "searching for wip in dir: #{dir}"
 
-WipFinder.find_wips(dir)
+no_fetch = ARGV.include?("--no-fetch")
+
+WipFinder.find_wips(dir, no_fetch)
