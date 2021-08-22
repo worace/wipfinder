@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    wipfinder (0.0.1)
+      git (~> 1.9)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    git (1.9.1)
+      rchardet (~> 1.8)
+    rchardet (1.8.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  wipfinder!
+
+BUNDLED WITH
+   2.2.24

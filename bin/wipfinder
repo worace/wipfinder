@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'wipfinder'
+
+dir = ARGV[0]
+puts "searching for wip in dir: #{dir}"
+
+WipFinder.find_wips(dir)
